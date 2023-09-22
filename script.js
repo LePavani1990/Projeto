@@ -6,11 +6,11 @@ function xxx() {
   // Substituir a imagem
   if (html.classList.contains("light")) {
     // Se tiver light mode, adicionar a imagem light
-    img.setAttribute("src", "./assets/avatar-light.png")
+    img.setAttribute("src", "./assets/fotowhite4.png")
     img.setAttribute("alt", "Foto do professor do curso no light1111")
   } else {
     // Se tiver dark mode, adicionar a imagem dark
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "./assets/foto1.png")
     img.setAttribute("alt", "Foto do professor do curso no darkzera")
   }
 }
